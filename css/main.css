@@ -1,1 +1,97 @@
 @charset "utf-8";
+/* Main Banner */
+#l_mb{
+    margin: 26vw 0px 4vw;
+}
+.l_mb_slider>li>h3{
+    position: absolute;
+    line-height: 6.8vw;
+    font-size: 4.8vw;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+}
+.l_mb_slider>li:nth-of-type(1)>h3{
+    top: 14%;
+    right: 10%;
+    line-height: 5.8vw;
+}
+.l_mb_slider>li:nth-of-type(2)>h3{
+    top: 10%;
+    left: 18%;
+}
+.l_mb_slider>li:nth-of-type(3)>h3{
+    top: 10%;
+    right: 8%;
+}
+.l_mb_slider>li:nth-of-type(4)>h3{
+    top: 10%;
+    left: 6%;
+}
+.l_mb_slider>li>a{
+    display: block;
+    position: absolute;
+    width: 22%;
+    line-height: 8vw;
+    height: 8vw;
+    border: 2px solid #fff;
+    font-size: 4.2vw;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+}
+.l_mb_slider>li:nth-of-type(1)>a{
+    top: 40%;
+    right: 22%;
+}
+.l_mb_slider>li:nth-of-type(2)>a{
+    top: 14%;
+    right: 18%;
+}
+.l_mb_slider>li:nth-of-type(3)>a{
+    top: 31%;
+    right: 13%;
+}
+.l_mb_slider>li:nth-of-type(4)>a{
+    top: 31%;
+    left: 12%;
+}
+
+/* Comapny Introduce */
+#l_company{
+    padding: 4vw 10px;
+    box-sizing: border-box;
+    background-color: #1f2227;
+}
+.l_com_box>div{
+    width: calc(50% - 10px);
+    text-align: center;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.l_summary{
+    float: left;
+    background-image: url(../img/main/company.jpg);
+}
+.l_vision{
+    float: right;
+    background-image: url(../img/main/vision.jpg);
+}
+.l_com_box>div>a{
+    display: block;
+    min-height: calc((50vw - 20px)/2*3 - 6vw);
+    box-sizing: border-box;
+    padding: calc((50vw - 20px)/4*3) 0px 4vw;
+}
+.l_com_box>div>a>h2{
+    line-height: 4.8vw;
+    font-size: 3.6vw;
+    font-weight: bold;
+    color: #e11f26;
+    margin-bottom: 2vw;
+}
+.l_com_box>div>a>p{
+    font-size: 3.2vw;
+    color: #565e6b;
+}
