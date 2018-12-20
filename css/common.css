@@ -29,9 +29,6 @@ button{
     display: block;
     clear: both;
 }
-#l_com_info, #l_news, #l_social, #l_sns, #l_ft{
-    display: none;
-}
 
 /* Skip */
 .l_skip>a{
@@ -115,20 +112,20 @@ button{
     left: 0px;
     width: 100vw;
     height: 100vh;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0,0,0,0.8);
 }
 .l_search>form{
     position: absolute;
-    top: 35%;
+    top: 50%;
     left: 50%;
-    width: 70vw;
+    width: 90vw;
     padding: 2vw;
     box-sizing: border-box;
     transform: translateX(-50%) translateY(-50%);
     background-color: #fff;
 }
 #l_stext{
-    width: 56vw;
+    width: 76vw;
     height: 6vw;
     padding: 0px;
     border: none;
@@ -143,11 +140,54 @@ button{
 }
 .l_s_close{
     position: absolute;
-    bottom: 4vw;
-    right: 10px;
+    bottom: 30%;
+    left: 50%;
+    transform: translateX(-50%);
     width: 12vw;
     height: 12vw;
-    background: #1f2227 url(../img/common/close_btn.png) no-repeat center;
+    background: #fff url(../img/common/close_btn.png) no-repeat center;
     background-size: 6vw;
     text-indent: -9999px;
+}
+
+/* Footer */
+#l_ft{
+    padding: 4vw 10px;
+    border-top: 1vw solid #565e6b;
+    margin-top: 4vw;
+    text-align: center;
+    background-color: #1f2227;
+}
+.l_plus_info{
+    display: inline-block;
+    margin: 0px auto 4vw;
+}
+.l_plus_info>li{
+    float: left;
+    line-height: 2.4vw;
+    padding-right: 2vw;
+    border-right: 1px solid #565e6b;
+    margin-right: 2vw;
+}
+.l_plus_info>li:last-child{
+    padding-right: 0px;
+    border-right: none;
+    margin-right: 0px;
+}
+.l_ft_con>address{
+    color: #fff;
+    line-height: 3.6vw;
+}
+.l_ft_con>address>small{
+    display: block;
+    margin: 2vw 0px 4vw;
+    font-size: 2.4vw;
+}
+.l_ft_con>h2{
+    text-indent: -9999px;
+    width: 14vw;
+    height: 14vw;
+    margin: 0px auto;
+    background: url(../img/common/lg_logo.png) no-repeat center;
+    background-size: cover; 
 }
