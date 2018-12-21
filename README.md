@@ -1,7 +1,7 @@
 # LGDisplay_Renewal
-'LG Display Renewal'포트폴리오 페이지
+'LG Display Renewal' Portfolio Page
 
-반응형 웹페이지 제작중(Mobile우선형)
+반응형 웹페이지 제작중(Mobile 우선형)
 
 PC버전: Width 1200px~
 

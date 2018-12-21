@@ -1,10 +1,13 @@
 $(function(){
+    // Main Banner
     $(".l_mb_slider").bxSlider({
         mode: "fade",
         auto: true,
         autoControls: true,
         pause: 3000
     });
+
+    // News
     $(".l_news_slider").bxSlider({
         pager: false,
         controls:false,
