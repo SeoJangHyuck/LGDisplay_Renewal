@@ -5,6 +5,10 @@ body{
     font-size: 2.4vw;
     color: #565e6b;
 }
+body.l_gnb_ac{
+    position: fixed;
+    overflow: hidden;
+}
 a{
     text-decoration: none;
     color: #fff 
@@ -97,6 +101,8 @@ button{
 #l_gnb_wrap{
     z-index: 9980;
     display: none;
+    overflow-x: hidden;
+    overflow-y: scroll;
     position: absolute;
     top: 0px;
     left: 0px;
@@ -132,12 +138,12 @@ button{
 }
 .l_gnb_depthbox{
     z-index: 9990;
-    position: fixed;
+    position: absolute;
     top: 0px;
     left: 100%;
     width: 100%;
-    height: 100vh;
-    padding: 22vw 10px 4vw;
+    height: 100%;
+    padding: 21vw 10px 4vw;
     box-sizing: border-box;
     background-color: #fff;
     transition: 0.4s;
@@ -169,6 +175,7 @@ button{
     border-top: 1vw solid #565e6b;
     border-bottom: 1vw solid #565e6b;
     padding: 4vw 0px 3vw;
+    margin-bottom: 4vw;
     background-color: #eeeef2
 }
 .l_gnb_2depth>li{

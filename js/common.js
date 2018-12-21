@@ -12,7 +12,7 @@ $(function(){
     // GNB Event
     $(".l_gnb_btn").click(function(){
         $("#l_gnb_wrap").stop().slideToggle(400);
-        $(this).toggleClass("l_gnb_ac");
+        $(".l_gnb_btn, body").toggleClass("l_gnb_ac");
     });
     $("#l_gnb>li").click(function(){
         $(this).children(".l_gnb_depthbox").addClass("l_gnb_on");
