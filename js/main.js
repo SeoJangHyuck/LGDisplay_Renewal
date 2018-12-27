@@ -9,9 +9,8 @@ $(function(){
 
     // News
     $(".l_news_slider").bxSlider({
-        pager: false,
-        controls:false,
-        pause: 3000,
+        pager: true,
+        controls: true,
         onSlideAfter: function($slideElement, oldIndex, newIndex){
             $(".l_news_slider>li").removeClass("l_news_on");
             $slideElement.addClass("l_news_on");

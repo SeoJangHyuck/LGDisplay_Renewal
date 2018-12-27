@@ -1,1 +1,497 @@
 @charset "utf-8";
+
+/* Tablet */
+@media all and (min-width: 768px) and (max-width: 1259px){
+    /* Main Banner */
+    #l_mb{
+        margin-top: calc(80px + 4vw);
+        background-color: #1f2227;
+    }
+    .l_mb_box{
+        max-width: 80vw;
+        margin: 0 auto;
+    }
+    .l_mb_slider>li{
+        margin: 0px auto;
+    }
+    .l_mb_slider>li>h3{
+        font-size: 3em;
+        line-height: 4.8vw;
+    }
+    .l_mb_slider>li:nth-of-type(1)>h3{
+        line-height: 4vw;
+    }
+    .l_mb_slider>li>a{
+        width: 16%;
+        line-height: 5vw;
+        height: 5vw;
+        font-size: 2em;
+    }
+    .l_mb_slider>li:nth-of-type(1)>a{
+        right: 26.5%;
+    }
+    .l_mb_slider>li:nth-of-type(2)>a{
+        top: 15%;
+        right: 21%;
+    }
+    .l_mb_slider>li:nth-of-type(3)>a{
+        right: 17%;
+    }
+    .l_mb_slider>li:nth-of-type(4)>a{
+        left: 17%;
+    }
+    #l_mb .bx-wrapper .bx-pager.bx-default-pager a {
+        width: 20px;
+        height: 20px;
+    }
+    #l_mb .bx-wrapper .bx-pager.bx-default-pager a:hover,
+    #l_mb .bx-wrapper .bx-pager.bx-default-pager a.active,
+    #l_mb .bx-wrapper .bx-pager.bx-default-pager a:focus {
+        width: 60px;
+    }
+    #l_mb .bx-wrapper .bx-prev {
+        left: -53px;
+    }
+    #l_mb .bx-wrapper .bx-next {
+        right: -53px;
+    }
+    #l_mb .bx-wrapper .bx-controls-direction a {
+        width: 38px;
+        height: 43px;
+    }
+    #l_mb .bx-wrapper .bx-controls-auto .bx-start {
+        width: 21px;
+        height: 24px;
+        margin: 0px 5px;
+    }
+    #l_mb .bx-wrapper .bx-controls-auto .bx-stop {
+        width: 26px;
+        height: 24px;
+        margin: 0px 10px;
+    }
+    #l_mb .bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-controls-auto {
+        right: 15%;
+    }
+
+    /* Content1 */
+    #l_content1>div{
+        float: left;
+        width: 50%;
+        height: calc(46vw - 20px);
+    }
+
+    /* Comapny Introduce */
+    #l_company{
+        margin-bottom: 0px;
+    }
+    .l_com_box{
+        height: 100%;
+    }
+    .l_com_box>div{
+        height: 100%;
+    }
+    .l_com_box>div>a{
+        min-height: 100%;
+        box-sizing: border-box;
+        padding-top: calc((50vw - 20px)/8*3);
+    }
+    .l_com_box>div>a>h2{
+        line-height: 2.8vw;
+    }
+    .l_com_box>div>a>p{
+        line-height: 2.4vw;
+    }
+
+    /* Company Info */
+    #l_com_info{
+        padding: 0px;
+    }
+    .l_info_box{
+        height: 100%;
+        padding: 4vw 0px;
+        box-sizing: border-box;
+    }
+    .l_info_box>div{
+        height: 100%;
+        padding: 0px 10px;
+    }
+    .l_info_box>div h2{
+        font-size: 2em;
+        padding: 2vw 0px 4vw;
+    }
+    .l_stock>p>img{
+        width: 2.4vw;
+    }
+    .l_stock>div>div>span>img{
+        width: 1vw;
+    }
+    .l_invest_con>a{
+        font-weight: bold;
+    }
+    .l_hire>a>p{
+        line-height: 2.8vw;
+    }
+
+     /* Content2 */
+     #l_content2{
+        margin: 4vw 0px 2vw;
+     }
+     #l_content2>div{
+        float: left;
+        width: 50%;
+        height: 40vw;
+        margin: 0px;
+    }
+
+    /*  News */
+    #l_news{
+        box-sizing: border-box;
+    }
+    #l_news>h2{
+        margin-bottom: 4vw;
+        font-size: 2.4em;
+    }
+    .l_news_box{
+        max-width: 32vw;
+    }
+    .l_news_slider>li{
+        line-height: 2.8vw;
+        padding: 0px 10px;
+    }
+    .l_more{
+        right: 4vw;
+    }
+
+    /* Social Event */
+    #l_social{
+        height: 100%;
+        box-sizing: border-box;
+    }
+    #l_social>div{
+        height: 100%;
+        background-size: 320px 160px;
+        background-position: top right;
+        background-color: #fff;
+    }
+    #l_social>div>a{
+        padding-top: 21vw;
+        text-align: center;
+        line-height: 2.8vw;
+    }
+
+    /* SNS */
+    #l_sns{
+        padding-top: 0px;
+    }
+    .l_sns_box{
+        width: 200px;
+    }
+    .l_sns_box>li{
+        width: 40px;
+        height: 40px;
+        margin: 0 5px;
+    }
+} /* Tablet End */
+
+/* PC */
+@media all and (min-width: 1260px){
+    /* Main Banner */
+    #l_mb{
+        max-width: 100%;
+        padding: 40px 0px;
+        margin: 40px 0px;
+        background-color: #1f2227;
+    }
+    .l_mb_box{
+        width: 960px;
+        margin: 0px auto;
+    }
+    .l_mb_slider>li{
+        margin: 0px;
+    }
+    .l_mb_slider>li>img{
+        width: 960px;
+        height: 640px;
+    }
+    .l_mb_slider>li:nth-of-type(n)>h3{
+        font-size: 3em;
+        line-height: 42px;
+    }
+    .l_mb_slider>li>a{
+        width: 12%;
+        line-height: 40px;
+        height: 40px;
+        font-size: 2em;
+    }
+    .l_mb_slider>li:nth-of-type(1)>a{
+        top: 37%;
+        right: 29%;
+    }
+    .l_mb_slider>li:nth-of-type(2)>a{
+        top: 14%;
+        right: 34%;
+    }
+    .l_mb_slider>li:nth-of-type(3)>a{
+        top: 27%;
+        right: 19%;
+    }
+    .l_mb_slider>li:nth-of-type(4)>a{
+        top: 27%;
+        left: 19%;
+    }
+    #l_mb .bx-wrapper .bx-pager{
+        bottom: 20px;
+    }
+    #l_mb .bx-wrapper .bx-pager.bx-default-pager a {
+        width: 20px;
+        height: 20px;
+    }
+    #l_mb .bx-wrapper .bx-pager.bx-default-pager a:hover,
+    #l_mb .bx-wrapper .bx-pager.bx-default-pager a.active,
+    #l_mb .bx-wrapper .bx-pager.bx-default-pager a:focus {
+        width: 60px;
+    }
+    #l_mb .bx-wrapper .bx-prev {
+        left: -63px;
+    }
+    #l_mb .bx-wrapper .bx-next {
+        right: -63px;
+    }
+    #l_mb .bx-wrapper .bx-controls-direction a {
+        margin-top: -21px;
+        width: 38px;
+        height: 43px;
+    }
+    #l_mb .bx-wrapper .bx-pager, #l_mb .bx-wrapper .bx-controls-auto{
+        bottom: 20px;
+    }
+    #l_mb .bx-wrapper .bx-controls-auto .bx-start {
+        width: 21px;
+        height: 24px;
+        margin: 0px 5px;
+    }
+    #l_mb .bx-wrapper .bx-controls-auto .bx-stop {
+        width: 26px;
+        height: 24px;
+        margin: 0px 10px;
+    }
+    #l_mb .bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-controls-auto {
+        right: 15%;
+    }
+
+    /* Content1 */
+    #l_content1{
+        max-width: 1260px;
+        margin: 40px auto;
+    }
+    #l_content1>div{
+        width: 50%;
+        height: 400px;
+    }
+
+    /* Comapny Introduce */
+    #l_company{
+        float: left;
+        padding: 40px;
+        margin-bottom: 0px;
+    }
+    .l_com_box{
+        height: 100%;
+    }
+    .l_com_box>div{
+        width: 48%;
+        height: 100%;
+    }
+    .l_com_box>.l_summary{
+        margin-bottom: 10px
+    }
+    .l_com_box>div>a{
+        min-height: 100%;
+        box-sizing: border-box;
+        padding: 185px 20px 20px;
+    }
+    .l_com_box>div>a>h2{
+        line-height: 24px;
+        margin-bottom: 10px;
+    }
+    .l_com_box>div>a>p{
+        display: inline-block;
+        line-height: 20px;
+    }
+
+    /* Company Info */
+    #l_com_info{
+        float: right;
+        padding: 0px;
+    }
+    .l_info_box{
+        height: 100%;
+        padding: 40px 20px;
+        box-sizing: border-box;
+    }
+    .l_info_box>div{
+        height: 100%;
+        padding: 0px 20px;
+    }
+    .l_info_box>div h2{
+        font-size: 2em;
+        padding: 0px;
+        margin-bottom: 40px;
+    }
+    .l_stock>p{
+        font-size: 3.6em;
+        margin-bottom: 20px;
+    }
+    .l_stock>p>img{
+        width: 20px;
+    }
+    .l_stock>div>div>span{
+        font-size: 14px;
+    }
+    .l_stock>div>div>span>img{
+        width: 10px;
+    }
+    .l_invest_con{
+        margin-top: 20px;
+        padding-top: 40px;
+    }
+    .l_invest_con>a{
+        font-size: 14px;
+    }
+    .l_invest_con>a>img{
+        width: 80%;
+        margin-bottom: 20px;
+    }
+    .l_hire>a>h3{
+        margin: 0px;
+        font-size: 3.6em;
+    }
+    .l_hire>a>p{
+        line-height: 28px;
+        padding: 20px 0px;
+        margin-top: 0px;
+        font-size: 1.6em;
+    }
+
+     /* Content2 */
+     #l_content2{
+        width: 1260px;
+        margin: 40px auto;
+     }
+     #l_content2>div{
+        float: left;
+        height: 400px;
+        margin: 0px;
+    }
+
+    /*  News */
+    #l_news{
+        width: 75%;
+        padding: 40px 0px;
+        box-sizing: border-box;
+    }
+    #l_news>h2{
+        margin-bottom: 40px;
+        font-size: 2.4em;
+    }
+    .l_news_box{
+        max-width:36%;
+    }
+    .l_news_slider>li{
+        line-height: 24px;
+        padding: 0px 20px;
+    }
+    .l_more{
+        top: 50px;
+        right: 40px;
+    }
+    #l_news .bx-wrapper .bx-prev {
+        left: -40px;
+        background: url("../img/main/banner_left_stop.png") no-repeat center;
+        background-size: cover;
+        transition: 0.4s;
+      }
+      #l_news .bx-wrapper .bx-prev:hover,
+      #l_news .bx-wrapper .bx-prev:focus {
+        background-image: url("../img/main/banner_left_play.png");
+      }
+      #l_news .bx-wrapper .bx-next {
+        right: -40px;
+        background: url("../img/main/banner_right_stop.png") no-repeat center;
+        background-size: cover;
+        transition: 0.4s;
+      }
+      #l_news .bx-wrapper .bx-next:hover,
+      #l_news .bx-wrapper .bx-next:focus {
+        background-image: url("../img/main/banner_right_play.png");
+      }
+      #l_news .bx-wrapper .bx-controls-direction a {
+        position: absolute;
+        top: -55px;
+        margin-top: -15px;
+        width: 30px;
+        height: 30px;
+        text-indent: -9999px;
+        z-index: 9960;
+      }
+      #l_news .bx-wrapper .bx-pager {
+        position: absolute;
+        width: 100%;
+        bottom: -50px;
+        left: 0px;
+        text-align: center;
+      }
+      #l_news .bx-wrapper .bx-pager.bx-default-pager a {
+        background: #fff;
+        text-indent: -9999px;
+        display: block;
+        width: 20px;
+        height: 20px;
+        border-radius: 10px;
+        margin: 0 10px;
+        transition: 0.5s;
+      }
+      #l_news .bx-wrapper .bx-pager.bx-default-pager a:hover,
+      #l_news .bx-wrapper .bx-pager.bx-default-pager a.active,
+      #l_news .bx-wrapper .bx-pager.bx-default-pager a:focus {
+        background: #e11f26;
+      }
+
+    /* Social Event */
+    #l_social{
+        width: 25%;
+        height: 100%;
+        padding: 40px 20px;
+        box-sizing: border-box;
+    }
+    #l_social>div{
+        width: 100%;
+        height: 150px;
+        margin-bottom: 20px;
+        background-size: 320px 160px;
+        background-position: top right;
+        background-color: #fff;
+    }
+    #l_social>div>a{
+        padding: 30px 20px;
+        font-size: 1.4em;
+        line-height: 28px;
+    }
+
+    /* SNS */
+    #l_sns{
+        padding-top: 0px;
+    }
+    .l_sns_box{
+        width: 280px;
+    }
+    .l_sns_box>li{
+        width: 50px;
+        height: 50px;
+        margin: 0px 10px;
+    }
+    .l_sns_box>li>a{
+        border-radius: 30px;
+        background-color: #fff;
+    }
+} /* PC End */

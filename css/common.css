@@ -4,10 +4,12 @@ body{
     font-family: 'Nanum Gothic', sans-serif;
     font-size: 2.4vw;
     color: #565e6b;
+    -webkit-overflow-scrolling: touch;
 }
 body.l_gnb_ac{
     position: fixed;
-    overflow: hidden;
+    width: 100%;
+    height: 100%;
 }
 a{
     text-decoration: none;
@@ -32,6 +34,9 @@ button{
     content: "";
     display: block;
     clear: both;
+}
+#l_gnb_wrap_pc{
+    display: none;
 }
 
 /* Skip */
@@ -100,9 +105,9 @@ button{
 }
 #l_gnb_wrap{
     z-index: 9980;
-    display: none;
     overflow-x: hidden;
     overflow-y: scroll;
+    display: none;
     position: absolute;
     top: 0px;
     left: 0px;
@@ -114,7 +119,7 @@ button{
 }
 #l_gnb_wrap>h2{
     text-align: center;
-    font-size: 5.6vw;
+    font-size: 2.4em;
     font-weight: bold;
     color: #1f2227;
     padding-bottom: 7vw;
@@ -132,7 +137,7 @@ button{
     cursor: pointer;
 }
 #l_gnb>li>h3{
-    font-size: 4.2vw;
+    font-size: 1.75em;
     font-weight: bold;
     text-align: center;
 }
@@ -142,8 +147,8 @@ button{
     top: 0px;
     left: 100%;
     width: 100%;
-    height: 100%;
-    padding: 21vw 10px 4vw;
+    min-height: 100%;
+    padding: 7.5vw 10px 4vw;
     box-sizing: border-box;
     background-color: #fff;
     transition: 0.4s;
@@ -157,17 +162,15 @@ button{
     top: 8vw;
     left: 10px;
     color: #c30036;
-    font-size: 4.2vw;
+    font-size: 1.75em;
     font-weight: bold;
 }
 .l_gnb_depthbox>p{
     z-index: 9990;
-    position: absolute;
-    top: 7.5vw;
-    left: 0px;
-    width: 100vw;
+    width: 100%;
+    padding-bottom: 7vw;
     text-align: center;
-    font-size: 5.6vw;
+    font-size: 2.4em;
     font-weight: bold;
     color: #1f2227;
 }
@@ -185,7 +188,7 @@ button{
 .l_gnb_2depth>li>a{
     display: block;
     padding: 4vw 0px;
-    font-size: 4.2vw;
+    font-size: 1.75em;
     font-weight: bold;
     color: #565e6b;
     text-align: center;
@@ -199,13 +202,13 @@ button{
     background-color: #fff;
 }
 .l_gnb_3depth>li{
-    padding: 3vw 0px;
     margin-bottom: 1px;
     background-color: #1f2227
 }
 .l_gnb_3depth>li>a{
     display: block;
-    font-size: 3.6vw;
+    padding: 3vw 0px;
+    font-size: 1.5em;
     font-weight: bold;
     text-align: center;
 }
@@ -245,7 +248,7 @@ button{
     height: 6vw;
     padding: 0px;
     border: none;
-    font-size: 3.6vw;
+    font-size: 1.5em;
 }
 .l_search_btn{
     position: absolute;
@@ -286,7 +289,7 @@ button{
     margin-right: 2vw;
 }
 .l_plus_info>li>a{
-    font-size: 2.8vw;
+    font-size: 1.15em;
 }
 .l_plus_info>li:last-child{
     padding-right: 0px;
@@ -300,7 +303,7 @@ button{
 .l_ft_con>address>small{
     display: block;
     margin: 2vw 0px 4vw;
-    font-size: 2.4vw;
+    font-size: 1em;
 }
 .l_ft_con>h2{
     text-indent: -9999px;

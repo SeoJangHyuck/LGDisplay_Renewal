@@ -7,7 +7,7 @@
     position: absolute;
     width: 55%;
     line-height: 6.8vw;
-    font-size: 4.8vw;
+    font-size: 2em;
     font-weight: bold;
     color: #fff;
     text-align: center;
@@ -36,7 +36,7 @@
     line-height: 8vw;
     height: 8vw;
     border: 2px solid #fff;
-    font-size: 4.2vw;
+    font-size: 1.75em;
     font-weight: bold;
     color: #fff;
     text-align: center;
@@ -88,13 +88,13 @@
 }
 .l_com_box>div>a>h2{
     line-height: 4.8vw;
-    font-size: 3.6vw;
+    font-size: 1.5em;
     font-weight: bold;
     color: #e11f26;
     margin-bottom: 2vw;
 }
 .l_com_box>div>a>p{
-    font-size: 3.2vw;
+    font-size: 1.4em;
     color: #565e6b;
 }
 
@@ -120,14 +120,14 @@
 .l_info_box>div h2{
     margin-left: 10px;
     padding-bottom: 4vw;
-    font-size: 3.6vw;
+    font-size: 1.5em;
     font-weight: bold;
     color: #fff;
 }
 .l_stock>p{
     margin-bottom: 4vw;
     text-align: center;
-    font-size: 7.2vw;
+    font-size: 3em;
     font-weight: bold;
     color: #f3ffb0;
 }
@@ -169,12 +169,12 @@
 .l_hire>a>p{
     line-height: 5.2vw;
     margin-top: 2vw;
-    font-size: 3.6vw;
+    font-size: 1.5em;
     text-align: center;
 }
 .l_hire>a>h3{
     margin: 4vw 0px;
-    font-size: 6vw;
+    font-size: 2.5em;
     font-weight: bold;
     text-align: center;
     color: #f3ffb0;
@@ -190,7 +190,7 @@
     overflow: hidden;
 }
 #l_news>h2{
-    font-size: 4.8vw;
+    font-size: 2em;
     font-weight: bold;
     color: #1f2227;
     margin-bottom: 6vw;
@@ -200,11 +200,10 @@
     margin: 0px auto;
 }
 .l_news_slider>li{
-    width: 60vw !important;
     line-height: 5.2vw;
     padding: 0px 2.5vw;
     box-sizing: border-box;
-    font-size: 3.2vw;
+    font-size: 1.4em;
     color: #fff;
     opacity: 0.5;
     transition: 0.4s;
@@ -213,7 +212,7 @@
     opacity: 1;
     transform: scale(1.1);
 }
-.l_news_slider>li>h3{
+.l_news_slider>li>a>h3{
     position: absolute;
     top: 45%;
     left: 50%;
@@ -221,7 +220,7 @@
     width: 100%;
     font-weight: bold;
 }
-.l_news_slider>li>p{
+.l_news_slider>li>a>p{
     position: absolute;
     bottom: 15%;
     left: 50%;
@@ -231,7 +230,7 @@
     position: absolute;
     top: 5vw;
     right: 10px;
-    font-size: 3.6vw;
+    font-size: 1.5em;
     font-weight: bold;
     color: #565e6b;
 }
@@ -241,7 +240,7 @@
     padding: 4vw 10px;
     background-color: #1f2227;
 }
-.l_social_box>div{
+#l_social>div{
     width: 48%;
     height: 25vw;
     background-repeat: no-repeat;
@@ -256,20 +255,20 @@
     float: right;
     background-image: url(../img/main/social_contribution.jpg);
 }
-.l_social_box>div>a{
+#l_social>div>a{
     display: block;
     height: 100%;
     line-height: 4.8vw;
     padding: 5vw 0px 0px 2vw;
     box-sizing: border-box;
 }
-.l_social_box>div>a>h2{
-    font-size: 3.6vw;
+#l_social>div>a>h2{
+    font-size: 1.5em;
     font-weight: bold;
     color: #c30036;
 }
-.l_social_box>div>a>p{
-    font-size: 2.8vw;
+#l_social>div>a>p{
+    font-size: 1.15em;
     color: #565e6b;
 }
 

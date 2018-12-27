@@ -9,10 +9,10 @@ $(function(){
         }
     });
 
-    // GNB Event
+    // Mobile GNB Event
     $(".l_gnb_btn").click(function(){
         $("#l_gnb_wrap").stop().slideToggle(400);
-        $(".l_gnb_btn, body").toggleClass("l_gnb_ac");
+        $("body, .l_gnb_btn").toggleClass("l_gnb_ac");
     });
     $("#l_gnb>li").click(function(){
         $(this).children(".l_gnb_depthbox").addClass("l_gnb_on");
@@ -29,6 +29,22 @@ $(function(){
         $(this).parent().siblings().find("ul").stop().slideUp(400);
     });
 
+    //PC GNB Event
+    $("#l_gnb_pc>li").on("mouseover focusin", function(){
+        $(this).children("h3").css({"background-color":"#fff","color":"#c30036"});
+        $(this).find(".l_gnb_2depth_pc").stop().slideDown(400);
+    });
+    $("#l_gnb_pc>li").on("mouseout focusout", function(){
+        $(this).children("h3").css({"background-color":"transparent","color":"#fff"});
+        $(this).find(".l_gnb_2depth_pc").stop().slideUp(400);
+    });
+    // $(".l_gnb_2depth_pc>li").on("mouseover focusin", function(){
+    //     $(this).find(".l_gnb_3depth_pc").stop().slideDown(400);
+    // });
+    // $(".l_gnb_2depth_pc>li").on("mouseout focusout", function(){
+    //     $(this).find(".l_gnb_3depth_pc").stop().slideUp(400);
+    // });
+    
     // Search Event
     $(".l_s_open").click(function(){
         $(".l_search").stop().fadeIn(500);
