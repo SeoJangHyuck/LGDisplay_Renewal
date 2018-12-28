@@ -7,7 +7,7 @@
     position: absolute;
     width: 55%;
     line-height: 6.8vw;
-    font-size: 2em;
+    font-size: 2rem;
     font-weight: bold;
     color: #fff;
     text-align: center;
@@ -36,7 +36,7 @@
     line-height: 8vw;
     height: 8vw;
     border: 2px solid #fff;
-    font-size: 1.75em;
+    font-size: 1.75rem;
     font-weight: bold;
     color: #fff;
     text-align: center;
@@ -88,13 +88,13 @@
 }
 .l_com_box>div>a>h2{
     line-height: 4.8vw;
-    font-size: 1.5em;
+    font-size: 1.5rem;
     font-weight: bold;
     color: #e11f26;
     margin-bottom: 2vw;
 }
 .l_com_box>div>a>p{
-    font-size: 1.4em;
+    font-size: 1.4rem;
     color: #565e6b;
 }
 
@@ -120,14 +120,14 @@
 .l_info_box>div h2{
     margin-left: 10px;
     padding-bottom: 4vw;
-    font-size: 1.5em;
+    font-size: 1.5rem;
     font-weight: bold;
     color: #fff;
 }
 .l_stock>p{
     margin-bottom: 4vw;
     text-align: center;
-    font-size: 3em;
+    font-size: 3rem;
     font-weight: bold;
     color: #f3ffb0;
 }
@@ -169,12 +169,12 @@
 .l_hire>a>p{
     line-height: 5.2vw;
     margin-top: 2vw;
-    font-size: 1.5em;
+    font-size: 1.5rem;
     text-align: center;
 }
 .l_hire>a>h3{
     margin: 4vw 0px;
-    font-size: 2.5em;
+    font-size: 2.5rem;
     font-weight: bold;
     text-align: center;
     color: #f3ffb0;
@@ -190,7 +190,7 @@
     overflow: hidden;
 }
 #l_news>h2{
-    font-size: 2em;
+    font-size: 2rem;
     font-weight: bold;
     color: #1f2227;
     margin-bottom: 6vw;
@@ -203,7 +203,7 @@
     line-height: 5.2vw;
     padding: 0px 2.5vw;
     box-sizing: border-box;
-    font-size: 1.4em;
+    font-size: 1.4rem;
     color: #fff;
     opacity: 0.5;
     transition: 0.4s;
@@ -230,7 +230,7 @@
     position: absolute;
     top: 5vw;
     right: 10px;
-    font-size: 1.5em;
+    font-size: 1.5rem;
     font-weight: bold;
     color: #565e6b;
 }
@@ -263,12 +263,12 @@
     box-sizing: border-box;
 }
 #l_social>div>a>h2{
-    font-size: 1.5em;
+    font-size: 1.5rem;
     font-weight: bold;
     color: #c30036;
 }
 #l_social>div>a>p{
-    font-size: 1.15em;
+    font-size: 1.15rem;
     color: #565e6b;
 }
 

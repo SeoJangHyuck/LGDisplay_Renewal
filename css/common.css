@@ -1,8 +1,10 @@
 @charset "utf-8";
 /* base */
+html{
+    font-size: 2.4vw;
+}
 body{
     font-family: 'Nanum Gothic', sans-serif;
-    font-size: 2.4vw;
     color: #565e6b;
     -webkit-overflow-scrolling: touch;
 }
@@ -119,7 +121,7 @@ button{
 }
 #l_gnb_wrap>h2{
     text-align: center;
-    font-size: 2.4em;
+    font-size: 2.4rem;
     font-weight: bold;
     color: #1f2227;
     padding-bottom: 7vw;
@@ -137,7 +139,7 @@ button{
     cursor: pointer;
 }
 #l_gnb>li>h3{
-    font-size: 1.75em;
+    font-size: 1.75rem;
     font-weight: bold;
     text-align: center;
 }
@@ -162,7 +164,7 @@ button{
     top: 8vw;
     left: 10px;
     color: #c30036;
-    font-size: 1.75em;
+    font-size: 1.75rem;
     font-weight: bold;
 }
 .l_gnb_depthbox>p{
@@ -170,7 +172,7 @@ button{
     width: 100%;
     padding-bottom: 7vw;
     text-align: center;
-    font-size: 2.4em;
+    font-size: 2.4rem;
     font-weight: bold;
     color: #1f2227;
 }
@@ -188,7 +190,7 @@ button{
 .l_gnb_2depth>li>a{
     display: block;
     padding: 4vw 0px;
-    font-size: 1.75em;
+    font-size: 1.75rem;
     font-weight: bold;
     color: #565e6b;
     text-align: center;
@@ -208,7 +210,7 @@ button{
 .l_gnb_3depth>li>a{
     display: block;
     padding: 3vw 0px;
-    font-size: 1.5em;
+    font-size: 1.5rem;
     font-weight: bold;
     text-align: center;
 }
@@ -228,7 +230,7 @@ button{
     display: none;
     position: fixed;
     top: 0px;
-    left: 0px;
+    right: 0px;
     width: 100vw;
     height: 100vh;
     background-color: rgba(0,0,0,0.8);
@@ -248,7 +250,7 @@ button{
     height: 6vw;
     padding: 0px;
     border: none;
-    font-size: 1.5em;
+    font-size: 1.5rem;
 }
 .l_search_btn{
     position: absolute;
@@ -289,7 +291,7 @@ button{
     margin-right: 2vw;
 }
 .l_plus_info>li>a{
-    font-size: 1.15em;
+    font-size: 1.15rem;
 }
 .l_plus_info>li:last-child{
     padding-right: 0px;
@@ -303,7 +305,7 @@ button{
 .l_ft_con>address>small{
     display: block;
     margin: 2vw 0px 4vw;
-    font-size: 1em;
+    font-size: 1rem;
 }
 .l_ft_con>h2{
     text-indent: -9999px;
