@@ -114,6 +114,7 @@
     #l_hd{
         z-index: 9990;
         position: relative;
+        width: 100%;
         padding: 0px 20px;
         border-bottom: 2px solid #565e6b;
         box-sizing: border-box;

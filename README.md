@@ -1,15 +1,18 @@
 # LGDisplay_Renewal
 'LG Display Renewal' Portfolio Page
 
-반응형 웹페이지 제작중(Mobile 우선형)
+반응형 웹페이지 제작(Mobile 우선형)
 
-PC버전: Width 1200px~
-
-Tablet버전: Width 768px~1199px
+<구조설명> 
+기존의 LG디스플레이 홈페이지가 반응형으로 구축되지 않아 Mobile에서 깨지는 현상이 생겨 Mobile을 기본으로 제작한 Renewal 웹페이지로써, rem과 vw로 인해서 Explorer 9 ver부터 지원이 가능한 페이지. 
 
 Mobile버전: Width ~767px
 
-Cross Browsing: IE8+, Chrome, FireFox, Opera, Safari
+Tablet버전: Width 768px~1259px
+
+PC버전: Width 1260px~
+
+Cross Browsing: IE9+, Chrome, FireFox, Opera, Safari
 
 사용언어: HTML, CSS, JavaScript(J-Qurey, bxSlider)
 
