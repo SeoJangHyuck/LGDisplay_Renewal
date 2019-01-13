@@ -6,11 +6,11 @@
 <구조설명> 
 기존의 LG디스플레이 홈페이지가 반응형으로 구축되지 않아 Mobile에서 깨지는 현상이 생겨 Mobile을 기본으로 제작한 Renewal 웹페이지로써, rem과 vw로 인해서 Explorer 9 ver부터 지원이 가능한 페이지. 
 
-Desktop버전: Width ~767px
+Mobile버전: Width ~767px
 
 Tablet버전: Width 768px~1259px
 
-PC버전: Width 1260px~
+Desktop버전: Width 1260px~
 
 Cross Browsing: IE9+, Chrome, FireFox, Opera, Safari
 
