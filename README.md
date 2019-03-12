@@ -4,7 +4,7 @@
 반응형 웹페이지 제작(Mobile 우선형)
 
 <구조설명> 
-기존의 LG디스플레이 홈페이지가 반응형으로 구축되지 않아 Mobile에서 깨지는 현상이 생겨 Mobile을 기본으로 제작한 Renewal 웹페이지로써, rem과 vw로 인해서 Explorer 9 ver부터 지원이 가능한 페이지. 
+기존의 LG디스플레이 홈페이지가 반응형으로 구축되지 않아 Desktop에서 Width를 줄였을때 깨지는 현상이 생겨 Mobile을 기본으로 제작한 Renewal 웹페이지로써, rem과 vw로 인해서 Explorer 9 ver부터 지원이 가능한 페이지. 
 
 Mobile버전: Width ~767px
 
