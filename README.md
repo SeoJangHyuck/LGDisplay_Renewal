@@ -22,4 +22,4 @@ Cross Browsing: IE9+, Chrome, FireFox, Opera, Safari
 
 Page Location: Main page <총 1 Page 제작>
 
-Page Domain: www.revefront.com/lgdisplay
+Page Domain: http://sjh9386061.dothome.co.kr/lgdisplay/
